@@ -5,9 +5,9 @@ class Video extends Component {
     render() {
         return (
             <div className='Video' style={styles.window}>
-                <h1> databiotix</h1>
-                <h2>Have you ever wondered what happens to your data?</h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/c4d0MU__esA" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <h1><span style={{ color:'#3b8eff' }}>data</span>biotix</h1>
+                <h3>Have you ever wondered what happens to your data?</h3>
+                <iframe width="420" height="236" src="https://www.youtube.com/embed/c4d0MU__esA" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 <br/>
                 <span>
                     Has Facebook been showing you advertisements for the sneakers you searched for on Google lately? <br/>
@@ -18,13 +18,13 @@ class Video extends Component {
                     Databiotics wants to help everyone understand the data they create and bring light to how companies like Facebook use your data. <br/>
                 </span>
                 <span>
-                    Find your Google data here: <br/>
+                    Find your Google data here: <br/> <br />
                 </span>
-                <button>Find my data</button>
+                <button type="button" class="btn btn-outline-primary">Find my data</button> <br/> <br />
                 <span>
-                    Upload your google data to Databiotics <br/>
+                    Upload your google data to Databiotics <br/> <br />
                 </span>
-                <button>Analyze my data</button>
+                <button type="button" class="btn btn-outline-primary">Analyze my data</button>
             </div>
         )
     }
