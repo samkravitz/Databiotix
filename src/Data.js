@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import wordcloud from './wordcloud.png'
 
 class Data extends Component {
 
@@ -7,17 +8,22 @@ class Data extends Component {
         return (
             <div className="Data" style={styles.window}>
                 <div style={{ height: '12vh' }}> </div>
-                <span style={styles.wordCloud}> WordCloud will go here <br/> </span>
+                
+                <img src={wordcloud} alt={'none'} style={styles.pic} height="200"/>
+
+
                 <div style={{ paddingTop: '15vh' }}>
                     <div style={styles.popularSearches}>
                         <span style={styles.popularSearches}>Popular Searches</span>
                     </div>
                     <div style={styles.searches}>
-                        <span>{searches[0]}</span>
-                        <span>{searches[1]}</span>
-                        <span>{searches[2]}</span>
-                        <span>{searches[3]}</span>
-                        <span>{searches[4]}</span>
+                        <span>{'purdue'
+                        
+                        }</span>
+                        <span>{'google'}</span>
+                        <span>{'integral'}</span>
+                        <span>{'drive'}</span>
+                        <span>{'python'}</span>
                     </div>
                     <div style={styles.popularSearches}>
                         <span style={styles.popularSearches}>Recent Locations</span>
@@ -26,8 +32,6 @@ class Data extends Component {
                         <span>Walmart</span>
                         <span>McDonald's</span>
                         <span>Subway</span>
-                        <span>Ace Hardware</span>
-                        <span>The Sage's Shoppe</span>
                     </div>
                 </div>
                 <button type="button" style={styles.button}>Analyze and Predict</button>

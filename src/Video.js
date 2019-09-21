@@ -7,7 +7,8 @@ class Video extends Component {
             <div className='Video' style={styles.window}>
                 <h1><span style={{ color:'#3b8eff' }}>data</span>biotix</h1>
                 <h3>Have you ever wondered what happens to your data?</h3>
-                <iframe width="420" height="236" src="https://www.youtube.com/embed/c4d0MU__esA" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <iframe width="420" height="236" src="https://www.youtube.com/embed/jSHoiyhQYz8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                {/* <iframe width="420" height="236" src="https://www.youtube.com/watch?v=jSHoiyhQYz8&feature=youtu.be" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
                 <br/>
                 <span>
                     Has Facebook been showing you advertisements for the sneakers you searched for on Google lately? <br/>
