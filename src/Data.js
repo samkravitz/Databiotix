@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 
 class Data extends Component {
+
     render() {
+        const { searches } =  this.props
         return (
             <div className="Data" style={styles.window}>
                 <div style={{ height: '12vh' }}> </div>
@@ -11,11 +13,11 @@ class Data extends Component {
                         <span style={styles.popularSearches}>Popular Searches</span>
                     </div>
                     <div style={styles.searches}>
-                        <span>Video Games</span>
-                        <span>Golf Clubs</span>
-                        <span>Coors Lite</span>
-                        <span>Dog Food</span>
-                        <span>New York Jets</span>
+                        <span>{searches[0]}</span>
+                        <span>{searches[1]}</span>
+                        <span>{searches[2]}</span>
+                        <span>{searches[3]}</span>
+                        <span>{searches[4]}</span>
                     </div>
                     <div style={styles.popularSearches}>
                         <span style={styles.popularSearches}>Recent Locations</span>
